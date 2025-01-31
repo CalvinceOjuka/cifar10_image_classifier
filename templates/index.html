@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:54402cb27f94c1ba968154c2456da91aedad724379c341bd838a0e8b9b25d3eb
-size 319
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CIFAR-10 Image Classifier</title>
+</head>
+<body>
+    <h2>Upload an Image</h2>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
